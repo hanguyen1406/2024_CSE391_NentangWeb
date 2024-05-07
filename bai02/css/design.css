@@ -1,0 +1,26 @@
+header{
+    color: red;
+    text-transform: uppercase;
+    border-left: red 5px solid;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: 'arial','Times New Roman';
+}
+ui{
+    display: flex;
+    font-family: arial,'Times New Roman';
+    margin: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+ui h2{
+    text-transform: uppercase;
+
+}
+.icon{
+    color: rgb(231, 32, 32);
+}
+ul{
+    padding: 0;
+}
