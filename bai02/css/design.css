@@ -24,3 +24,13 @@ ui h2{
 ul{
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.content-text{
+    display: none;
+}
+.subject:hover .content-text{
+    display: block;
+}
