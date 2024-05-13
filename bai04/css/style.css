@@ -1,18 +1,16 @@
-.txtbox{
-    border: none;
-    outline: none;
+
+body{
+    margin: 0 2% ;
 }
-.line{
-    border: solid 1px;
-    padding: 5px;
-    margin: 5px;
+.cell input{
+   padding:0px 35rem;
 }
-.bi {
-    margin-right: 1rem;
+#row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px !important;
+    padding: 0%;
 }
-th{
-    padding: 1rem;
-}
-td.line{
-    padding: 1rem;
+select{
+    margin: 0px 0px 0px 2rem;
 }
