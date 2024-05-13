@@ -1,0 +1,18 @@
+.txtbox{
+    border: none;
+    outline: none;
+}
+.line{
+    border: solid 1px;
+    padding: 5px;
+    margin: 5px;
+}
+.bi {
+    margin-right: 1rem;
+}
+th{
+    padding: 1rem;
+}
+td.line{
+    padding: 1rem;
+}
