@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quản lý nhân viên</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <!-- Option 1: Include in HTML -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+        />
+        <style>
+            #add {
+                position: relative;
+                top: -2px;
+            }
+            #addnv {
+                margin-right: 5px;
+            }
+            table {
+                width: 100%;
+            }
+            .last-td {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar shadow navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">TLU</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >TRANG CHỦ</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"
+                                    >QUẢN LÝ NHÂN VIÊN</a
+                                >
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Nhập nội dung tìm kiếm"
+                                aria-label="Search"
+                            />
+                            <button
+                                class="btn btn-outline-success"
+                                type="submit"
+                            >
+                                Tìm
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar mt-3 bg-body-tertiary">
+                <div class="container-fluid">
+                    <b class="navbar-text"> Quản lý Nhân Viên </b>
+                    <div style="display: flex">
+                        <div
+                            class="bg-danger p-2 rounded text-light"
+                            id="addnv"
+                        >
+                            <i id="add" class="bi bi-dash-circle-fill"></i>
+                            Xóa
+                        </div>
+                        <div
+                            class="bg-success p-2 rounded text-light"
+                            id="addnv"
+                        >
+                            <i id="add" class="bi bi-plus-circle-fill"></i>
+                            Thêm nhân viên
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            <input
+                                type="checkbox"
+                                id="hobby1"
+                                name="hobbies"
+                                value="Reading"
+                            />
+                        </th>
+                        <th scope="col">Họ và tên</th>
+                        <th scope="col">Thư điện tử</th>
+                        <th scope="col">Địa chỉ</th>
+                        <th scope="col">Số điện thoại</th>
+                        <th class="text-center" scope="col">Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input
+                                type="checkbox"
+                                id="hobby1"
+                                name="hobbie"
+                                value="Reading"
+                            />
+                        </td>
+                        <td>Nguyễn Nhật Hạ</td>
+                        <td>hanguyen@gmail.com</td>
+                        <td>Hà nội</td>
+                        <td>012345678</td>
+                        <td class="last-td">
+                            <i class="bi bi-pencil"></i>
+                            <i class="bi bi-trash-fill"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input
+                                type="checkbox"
+                                id="hobby1"
+                                name="hobbie"
+                                value="Reading"
+                            />
+                        </td>
+                        <td>Nguyễn Nhật Hạ</td>
+                        <td>hanguyen@gmail.com</td>
+                        <td>Hà nội</td>
+                        <td>012345678</td>
+                        <td class="last-td">
+                            <i class="bi bi-pencil"></i>
+                            <i class="bi bi-trash-fill"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input
+                                type="checkbox"
+                                id="hobby1"
+                                name="hobbie"
+                                value="Reading"
+                            />
+                        </td>
+                        <td>Nguyễn Nhật Hạ</td>
+                        <td>hanguyen@gmail.com</td>
+                        <td>Hà nội</td>
+                        <td>012345678</td>
+                        <td class="last-td">
+                            <i class="bi bi-pencil"></i>
+                            <i class="bi bi-trash-fill"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+    ></script>
+    <script>
+        function heloo() {
+        
+        }
+        
+    </script>
+</html>
